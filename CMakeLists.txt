@@ -355,6 +355,7 @@ endif()
 # use the same name for the source tree as AutoTools so that we can
 # share the config file template between the two systems
 get_filename_component(abs_top_srcdir "${CMAKE_CURRENT_LIST_FILE}" PATH)
+set (ALL_PKG_LIBS ${EwomsLinkLibraries})
 
 # extract the definitions that various modules have added
 get_directory_property (EWOMS_COMP_DEFS COMPILE_DEFINITIONS)

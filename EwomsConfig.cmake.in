@@ -18,5 +18,5 @@ set(Ewoms_INCLUDE_DIRS "@abs_top_srcdir@")
 set(Ewoms_DEFINITIONS "")
 
 # all code in headers!
-set(Ewoms_LIBRARY_DIRS "")
-set(Ewoms_LIBRARIES "")
+set(Ewoms_LIBRARY_DIRS "@ALL_PKG_LDFLAGS@")
+set(Ewoms_LIBRARIES "@ALL_PKG_LIBS@")
